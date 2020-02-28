@@ -58,3 +58,14 @@ input[type="submit"]{
   box-sizing: border-box;
   padding:0;
 }
+.login-home label{
+		display: inline-block;
+		text-align: right;
+		float: left;
+	}
+.login-home input{
+		display: inline-block;
+		text-align: left;
+		float: right;
+	}
+
