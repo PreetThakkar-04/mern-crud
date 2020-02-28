@@ -17,9 +17,9 @@ class MovieForm extends Component{
           <div className="ad-n">
           <input type="text" name="year" placeholder="Group Name" ref="year" required/>
           </div>
-          <div className="ad-n">
-          <input type="text" name="cast" placeholder="User Type" ref="cast"/>
-          </div>
+//           <div className="ad-n">
+//           <input type="text" name="cast" placeholder="User Type" ref="cast"/>
+//           </div>
           <div className="ad-n">
           <textarea name="desc" placeholder="Write a post.." ref="desc" required></textarea>
           </div>
