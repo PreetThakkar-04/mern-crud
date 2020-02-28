@@ -49,3 +49,12 @@
   font-size:1.9vw;
   font-weight: 300;
 }
+input[type="submit"]{
+  width:10vw;
+  margin:3vh 40vw;
+  height:6vh;
+  font-size:4vh;
+  text-align: center;
+  box-sizing: border-box;
+  padding:0;
+}
