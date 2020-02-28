@@ -10,7 +10,7 @@ class Home extends Component {
               <div className="login-home">
                   <form>
                           <div>
-                          <label>Email</label>
+                          <label>Email  </label>
                           <input
                               type="email"
                               name="email"
@@ -22,6 +22,10 @@ class Home extends Component {
                                   type="password"
                                   name="password"
                               />
+                          </div>
+                          <div>
+                              <input type="submit" value = "Login"/>
+                              <input type="submit" value = "Signup"/>
                           </div>
                  </form>
               </div>
