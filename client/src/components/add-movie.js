@@ -12,11 +12,11 @@ class MovieForm extends Component{
       <div className="content">
         <form onSubmit={this.addMovie}>
           <div className="ad-n">
-          <input type="text" name="title" placeholder="Your name" ref="title" required/>
+          <input type="text" name="title" placeholder="Post Title" ref="title" required/>
           </div>
-          /*<div className="ad-n">
-          <input type="text" name="year" placeholder="Year of release" ref="year" required/>
-          </div>*/
+          <div className="ad-n">
+          <input type="text" name="year" placeholder="Group Name" ref="year" required/>
+          </div>
           <div className="ad-n">
           <input type="text" name="cast" placeholder="User Type" ref="cast"/>
           </div>
@@ -34,7 +34,7 @@ class MovieForm extends Component{
     e.preventDefault()
     var desc = this.refs.desc.value;
     var title = this.refs.title.value;
-    //var year = Number(this.refs.year.value);
+    var year = this.refs.year.value;
     var cast = this.refs.cast.value.split(',');
     cast = cast.map(item => item.trim());
     console.log(cast);
@@ -45,7 +45,7 @@ class MovieForm extends Component{
 		API.post('/api/movie/add', {
 	      title: title,
 	      desc: desc,
-	      //year: year,
+	      year: year,
 	      cast: cast
 	    }).then(function (response) {
 	      alert("Post added succesfully");
