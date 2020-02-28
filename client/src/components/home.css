@@ -24,20 +24,18 @@
 }
 .home-title{
   position:relative;
-  background-color:white;
   width:100%;
-  text-align: left;
+  text-align: center;
   font-size:8vw;
   font-weight: 300;
-  margin-top:2vh;
-  color:blue;
+  margin-top:23.5vh;
+  color:white;
   box-sizing: border-box;
 }
 
 .land-desc{
   padding:1vh;
-  background-color:white;
-  color:blue;
+  color:white;
   margin:1vh auto;
   text-align: center;
   font-size:1.9vw;
