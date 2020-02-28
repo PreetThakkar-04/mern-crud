@@ -8,10 +8,22 @@ class Home extends Component {
         <div className="landing">
           <h1 className="home-title">SoNIC</h1>
               <div className="login-home">
-                  <form align="center">
-                        <br>Enter Email    :<input type="text" name="email">
-                        <br>Enter Password :<input type="password" name="password">
-                  </form>
+                  <form>
+                          <div>
+                          <label>Email</label>
+                          <input
+                              type="email"
+                              name="email"
+                          />
+                          </div>
+                          <div>
+                              <label>Password</label>
+                              <input
+                                  type="password"
+                                  name="password"
+                              />
+                          </div>
+                 </form>
               </div>
               <div className="land-desc col-lg-6 col-md-7">
                     <a href="/auth/google">Login</a> with Google.
