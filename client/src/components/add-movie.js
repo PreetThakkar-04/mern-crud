@@ -15,11 +15,11 @@ class MovieForm extends Component{
           <input type="text" name="title" placeholder="Post Title" ref="title" required/>
           </div>
           <div className="ad-n">
-          <input type="text" name="year" placeholder="Group Name" ref="year" required/>
+          <input type="text" name="year" placeholder="User Type" ref="year" required/>
           </div>
-//           <div className="ad-n">
-//           <input type="text" name="cast" placeholder="User Type" ref="cast"/>
-//           </div>
+          <div className="ad-n">
+          <input type="text" name="cast" placeholder="Group name" ref="cast"/>
+          </div>
           <div className="ad-n">
           <textarea name="desc" placeholder="Write a post.." ref="desc" required></textarea>
           </div>
@@ -35,9 +35,9 @@ class MovieForm extends Component{
     var desc = this.refs.desc.value;
     var title = this.refs.title.value;
     var year = this.refs.year.value;
- //   var cast = this.refs.cast.value.split(',');
- //   cast = cast.map(item => item.trim());
- //   console.log(cast);
+   var cast = this.refs.cast.value.split(',');
+   cast = cast.map(item => item.trim());
+   console.log(cast);
     if(false){
       alert('Year must be a number greater than 1888. The first movie in the world was released in 1888');
     }
@@ -46,7 +46,7 @@ class MovieForm extends Component{
 	      title: title,
 	      desc: desc,
 	      year: year,
-//	      cast: cast
+	      cast: cast
 	    }).then(function (response) {
 	      alert("Post added succesfully");
 	      window.location = '/movies';
