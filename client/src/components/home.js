@@ -23,11 +23,11 @@ class Home extends Component {
                                   name="password"
                               />
                           </div>
-                          <div>
+                 </form>
+              </div>
+              <div>
                               <input type="submit" value = "Login"/>
                               <input type="submit" value = "Signup"/>
-                          </div>
-                 </form>
               </div>
               <div className="land-desc col-lg-6 col-md-7">
                     <a href="/auth/google">Login</a> with Google.
