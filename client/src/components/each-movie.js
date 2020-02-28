@@ -22,9 +22,9 @@ class EachMovie extends Component{
         <div className='each-micro each-mf-comp'>
             <div className="em1">
               <h3 className='movie-name'>{title}</h3>
-              /*<div className="movie_cast">
+              <div className="movie_cast">
                 {cast}
-              </div>*/
+              </div>
               <p className='micro-desc'> {this.props.desc}</p>
               <h3 className="ts-title">Posted as :</h3>
               <div className="tech_stack">
