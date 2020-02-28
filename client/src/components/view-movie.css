@@ -61,12 +61,12 @@
   margin: 1.5vw 1.5vh;
   padding: 1vw 1vh;
   box-shadow: 0 7px 10px 0 rgba(255, 255, 255, 0.5);
-  background-color: #dedefa;
+  background-color: #DE621F;
 }
 
 .each-ms-comp{
-  border-top: 11px solid rgba(28,110,164,0.8);
-  border-radius: 23px 15px 18px 20px;
+  border-top: 0px solid rgba(28,110,164,0.8);
+  border-radius: 46px 30px 36px 40px;
 
 }
 .each-mf-comp{
@@ -112,24 +112,25 @@
   font-size:2.2vh;
   height:auto;
   min-height:15vh;
-  overflow:auto;
+  /*overflow:auto;*/
 }
 .tech_stack{
   width:100%;
   margin:0;
   margin-top:2vh;
   padding:1vh;
-  font-size:2.5vh;
+  font-size:1vh;
+  text-align:right;
   height:auto;
   min-height:15vh;
-  overflow:auto;
+/*  overflow:auto;*/
 }
 .ts-title{
   width:100%;
   /* height:auto;
   overflow:auto; */
-  font-size:4vh;
-  margin:1vh;
+  font-size:2vh;
+  margin:0.5vh;
   padding:0;
   padding-left:0.5vh;
 }
