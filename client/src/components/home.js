@@ -8,7 +8,7 @@ class Home extends Component {
         <div className="landing">
           <h1 className="home-title">SoNIC</h1>
             <div className="land-desc col-lg-6 col-md-7">
-               An App to connect! <a href="/auth/google">Click here</a> to login with Google.
+                <a href="/auth/google">Login</a> with Google.
             </div>
         </div>
       </div>
