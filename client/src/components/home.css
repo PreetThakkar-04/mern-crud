@@ -25,10 +25,10 @@
 .home-title{
   position:relative;
   width:100%;
-  text-align: center;
+  text-align: left;
   font-size:8vw;
   font-weight: 300;
-  margin-top:23.5vh;
+  margin-top:5vh;
   color:white;
   box-sizing: border-box;
 }
