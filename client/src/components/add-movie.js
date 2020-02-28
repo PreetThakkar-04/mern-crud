@@ -35,9 +35,9 @@ class MovieForm extends Component{
     var desc = this.refs.desc.value;
     var title = this.refs.title.value;
     var year = this.refs.year.value;
-    var cast = this.refs.cast.value.split(',');
-    cast = cast.map(item => item.trim());
-    console.log(cast);
+ //   var cast = this.refs.cast.value.split(',');
+ //   cast = cast.map(item => item.trim());
+ //   console.log(cast);
     if(false){
       alert('Year must be a number greater than 1888. The first movie in the world was released in 1888');
     }
@@ -46,7 +46,7 @@ class MovieForm extends Component{
 	      title: title,
 	      desc: desc,
 	      year: year,
-	      cast: cast
+//	      cast: cast
 	    }).then(function (response) {
 	      alert("Post added succesfully");
 	      window.location = '/movies';
