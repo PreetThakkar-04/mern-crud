@@ -9,8 +9,8 @@ class Home extends Component {
           <h1 className="home-title">SoNIC</h1>
               <div className="login-home">
                   <form align="center">
-                        <p>Enter Email<input type="text" name="email"></p>
-                        <br>Enter Password<input type="password" name="password">
+                        <br>Enter Email    :<input type="text" name="email">
+                        <br>Enter Password :<input type="password" name="password">
                   </form>
               </div>
               <div className="land-desc col-lg-6 col-md-7">
