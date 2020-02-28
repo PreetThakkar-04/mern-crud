@@ -11,7 +11,7 @@ var MovieSchema = new Schema({
   title: {type: String, required: true, unique: true},
   desc: {type: String, required: false},
   year: {type: String, required: true, unique: false},
-  cast: [{type: String}],  //This attribute is an array which stores objects of type String.
+//  cast: [{type: String}],  //This attribute is an array which stores objects of type String.
 });
 
 const Movie = mongoose.model("Movie", MovieSchema);
