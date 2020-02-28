@@ -7,9 +7,15 @@ class Home extends Component {
       <div className="home-wrap">
         <div className="landing">
           <h1 className="home-title">SoNIC</h1>
-            <div className="land-desc col-lg-6 col-md-7">
-                <a href="/auth/google">Login</a> with Google.
-            </div>
+              <div className="login-home">
+                  <form align="center">
+                        <p>Enter Email<input type="text" name="email"></p>
+                        Enter Password<input type="password" name="password">
+                  </form>
+              </div>
+              <div className="land-desc col-lg-6 col-md-7">
+                    <a href="/auth/google">Login</a> with Google.
+              </div>
         </div>
       </div>
     );
