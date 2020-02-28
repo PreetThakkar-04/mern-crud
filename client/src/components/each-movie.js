@@ -10,7 +10,7 @@ class EachMovie extends Component{
     var cast = this.props.cast  
     var year = [this.props.year]
     this.linkHandler = this.linkHandler.bind(this);
-    var linkButton = (<button className="m-del btn btn-primary" id={"emub"} onClick={this.linkHandler}>Delete</button>)
+    var linkButton = (<button className="m-del btn btn-primary" id={"emub"} onClick={this.linkHandler}>Delete Post</button>)
     //
     cast = cast.map(function(key,index){
       return(<div className="mkey"><p>{key}</p></div>)
@@ -43,7 +43,7 @@ class EachMovie extends Component{
   */
   linkHandler(e)
   {
-    var url = "/api/movie/" + this.props.movie_id + "/delete the post"
+    var url = "/api/movie/" + this.props.movie_id + "/delete"
     API.get(url,{}).then(res => {
       window.location.reload();
     })
