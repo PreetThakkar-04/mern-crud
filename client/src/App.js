@@ -13,8 +13,8 @@ function App() {
     </Helmet>
     <div>
     	<Route exact path='/' component = {Home} />
-    	<Route exact path='/movies' component = {TilesView} />
-    	<Route exact path='/movies/add' component = {MovieForm} />
+    	<Route exact path='/home' component = {TilesView} />
+    	<Route exact path='/home/add' component = {MovieForm} />
     </div>
     </BrowserRouter>
   );
