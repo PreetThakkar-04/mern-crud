@@ -9,7 +9,7 @@ function App() {
   return (
     <BrowserRouter>
     <Helmet>
-    	<title> {"IS F341"} </title>
+    	<title> {"SoNIC"} </title>
     </Helmet>
     <div>
     	<Route exact path='/' component = {Home} />
