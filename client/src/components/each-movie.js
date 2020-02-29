@@ -43,7 +43,7 @@ class EachMovie extends Component{
   */
   linkHandler(e)
   {
-    var url = "/api/movie/" + this.props.movie_id + "/delete"
+    var url = "/api/home/" + this.props.movie_id + "/delete"
     API.get(url,{}).then(res => {
       window.location.reload();
     })
