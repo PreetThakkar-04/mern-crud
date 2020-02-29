@@ -50,6 +50,7 @@
   font-weight: 300;
 }
 input[type="submit"]{
+  display: inline-block;
   width:10vw;
   margin:3vh 40vw;
   height:6vh;
@@ -59,13 +60,13 @@ input[type="submit"]{
   padding:0;
 }
 .login-home label{
-		display: inline-block;
+		display: block;
 		text-align: right;
-		float: left;
+		float: center;
 	}
 .login-home input{
 		display: inline-block;
 		text-align: left;
-		float: right;
+		float: center;
 	}
 
