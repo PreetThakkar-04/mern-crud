@@ -41,32 +41,5 @@
   font-size:1.9vw;
   font-weight: 300;
 }
-.login-home{
-  padding:1vh;
-  color:white;
-  margin:1vh auto;
-  text-align: center;
-  font-size:1.9vw;
-  font-weight: 300;
-}
-.button-home{
-		 display: inline-block;
-		  width:10vw;
-		  margin:3vh 40vw;
-		  height:4vh;
-		  font-size:3vh;
-		  text-align: center;
-		  box-sizing: border-box;
-		  padding:0;
-}
-.login-home label{
-		display: block;
-		text-align: center;
-		float: center;
-	}
-.login-home input{
-		display: inline-block;
-		text-align: left;
-		float: center;
-	}
+
 
