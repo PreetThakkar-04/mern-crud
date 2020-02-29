@@ -38,7 +38,7 @@ class TilesView extends Component{
                 <button className="add-b btn btn-light">Add a Post</button>
             </Link></center>
           <div className="content">
-            {movies}
+            {home}
           </div>
       </div>
     )
