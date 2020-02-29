@@ -61,7 +61,7 @@ input[type="submit"]{
 }
 .login-home label{
 		display: block;
-		text-align: right;
+		text-align: center;
 		float: center;
 	}
 .login-home input{
