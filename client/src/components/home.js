@@ -25,7 +25,7 @@ class Home extends Component {
                           </div>
                  </form>
               </div>
-              <div>
+              <div classname="button-home">
                               <input type="submit" value = "Login"/>
                               <input type="submit" value = "Signup"/>
               </div>
