@@ -14,7 +14,7 @@ function App() {
     <div>
     	<Route exact path='/' component = {Home} />
     	<Route exact path='/movies' component = {TilesView} />
-    	<Route exact path='/home/add' component = {MovieForm} />
+    	<Route exact path='/movies/add' component = {MovieForm} />
     </div>
     </BrowserRouter>
   );
