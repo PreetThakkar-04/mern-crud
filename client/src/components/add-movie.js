@@ -49,7 +49,7 @@ class MovieForm extends Component{
 	      cast: cast
 	    }).then(function (response) {
 	      alert("Post added succesfully");
-	      window.location = '/home';
+	      window.location = '/movies';
 	    }).catch(function (error) {
 	      console.log(error);
 	    });
