@@ -34,7 +34,7 @@ class TilesView extends Component{
     return(
       <div className="wrap">
           <h1 className="title">Home Page</h1>
-            <center><Link to={{pathname:"/home/add",state:{user:this.state.user}}}>
+            <center><Link to={{pathname:"/movies/add",state:{user:this.state.user}}}>
                 <button className="add-b btn btn-light">Add a Post</button>
             </Link></center>
           <div className="content">
